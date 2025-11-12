@@ -56,8 +56,8 @@ const Education = () => {
           {education.map((edu, index) => <Card key={index} className="glass-card p-6 md:p-8 hover:glow-blue hover-lift">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-primary/10 shrink-0">
-                    <img src={schoolLogo} alt="Princess Chulabhorn Science High School Logo" className="w-12 h-12 object-contain" />
+                  <div className="p-4 rounded-lg bg-primary/10 shrink-0">
+                    <img src={schoolLogo} alt="Princess Chulabhorn Science High School Logo" className="w-20 h-20 object-contain" />
                   </div>
                   <div>
                     <h3 className="text-xl font-display font-semibold mb-2">

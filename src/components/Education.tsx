@@ -1,4 +1,6 @@
 import { Card } from "@/components/ui/card";
+import schoolLogo from "@/assets/school-logo.png";
+
 const Education = () => {
   const education = [{
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",
@@ -55,7 +57,7 @@ const Education = () => {
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                 <div className="flex items-start gap-4">
                   <div className="p-3 rounded-lg bg-primary/10 shrink-0">
-                    
+                    <img src={schoolLogo} alt="Princess Chulabhorn Science High School Logo" className="w-12 h-12 object-contain" />
                   </div>
                   <div>
                     <h3 className="text-xl font-display font-semibold mb-2">

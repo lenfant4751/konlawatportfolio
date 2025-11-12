@@ -1,15 +1,14 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Mail, Facebook, Download, ArrowDown } from "lucide-react";
-
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
-    element?.scrollIntoView({ behavior: 'smooth' });
+    element?.scrollIntoView({
+      behavior: 'smooth'
+    });
   };
-
-  return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 py-20">
+  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 py-20">
       {/* Nebula glow effect */}
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-primary/20 rounded-full blur-[120px] animate-glow-pulse" />
       
@@ -17,13 +16,17 @@ const Hero = () => {
         <div className="text-center space-y-8 animate-fade-in">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tight">
-              <span className="text-gradient">Aerospace & AI</span>
+            <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tight">Aerospace & AI
+Engineer<span className="text-gradient">Aerospace & AI</span>
               <br />
               Student Engineer
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-              Designing CubeSats, CanSat payloads, and computer vision systems for real-world impact.
+            <p className="text-xl text-muted-foreground max-w-2xl mx-[200px] md:text-4xl">
+              Konlawat Phaikaew
+
+
+
+  
             </p>
           </div>
 
@@ -45,26 +48,13 @@ const Hero = () => {
 
           {/* CTAs */}
           <div className="flex flex-wrap justify-center gap-4 pt-6">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 glow-blue"
-              onClick={() => scrollToSection('portfolio')}
-            >
+            <Button size="lg" className="bg-primary hover:bg-primary/90 glow-blue" onClick={() => scrollToSection('portfolio')}>
               View Projects
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="glass-card border-primary/50 hover:border-primary hover:glow-blue"
-              onClick={() => scrollToSection('services')}
-            >
+            <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => scrollToSection('services')}>
               Hire for a Prototype
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="glass-card border-border hover:border-primary hover:glow-blue"
-            >
+            <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </Button>
@@ -72,19 +62,11 @@ const Hero = () => {
 
           {/* Contact info */}
           <div className="flex flex-wrap justify-center gap-6 pt-8 text-sm text-muted-foreground">
-            <a 
-              href="mailto:kp.lenfant@gmail.com" 
-              className="flex items-center gap-2 hover:text-primary transition-colors"
-            >
+            <a href="mailto:kp.lenfant@gmail.com" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Mail className="h-4 w-4" />
               kp.lenfant@gmail.com
             </a>
-            <a 
-              href="https://www.facebook.com/profile.php?id=konlawat.phaikaew" 
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-primary transition-colors"
-            >
+            <a href="https://www.facebook.com/profile.php?id=konlawat.phaikaew" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
               <Facebook className="h-4 w-4" />
               Konlawat Phaikaew
             </a>
@@ -96,8 +78,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;

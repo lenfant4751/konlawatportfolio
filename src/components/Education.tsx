@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import schoolLogo from "@/assets/school-logo.png";
-
 const Education = () => {
   const education = [{
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",
@@ -63,8 +62,8 @@ const Education = () => {
                     <h3 className="text-xl font-display font-semibold mb-2">
                       {edu.institution}
                     </h3>
-                    <p className="text-foreground font-medium mb-1">{edu.degree}</p>
-                    <p className="text-sm text-muted-foreground">{edu.grade}</p>
+                    <p className="text-foreground font-medium mb-1 text-sm">{edu.degree}</p>
+                    <p className="text-muted-foreground text-xl">{edu.grade}</p>
                   </div>
                 </div>
                 <div className="text-right md:text-right">

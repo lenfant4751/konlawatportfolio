@@ -2,10 +2,8 @@ import { Card } from "@/components/ui/card";
 import { Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import profilePhoto from "@/assets/profile-photo.jpg";
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 px-4">
+  return <section id="about" className="py-20 px-4">
       <div className="container max-w-6xl">
         <h2 className="text-4xl md:text-5xl font-display font-bold text-center mb-16">
           <span className="text-gradient">About Me</span>
@@ -16,11 +14,7 @@ const About = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 rounded-2xl blur-xl group-hover:blur-2xl transition-all" />
             <div className="relative glass-card p-2 rounded-2xl overflow-hidden">
-              <img 
-                src={profilePhoto}
-                alt="Konlawat Phaikaew" 
-                className="w-full h-auto rounded-xl"
-              />
+              
             </div>
           </div>
 
@@ -64,8 +58,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;

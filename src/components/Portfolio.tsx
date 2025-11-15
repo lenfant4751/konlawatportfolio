@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Calendar } from "lucide-react";
 import cubesatDiagram from "@/assets/cubesat-diagram.png";
 import cansatParachute from "@/assets/cansat-parachute.jpg";
+import rovAnsys from "@/assets/rov-ansys.png";
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
@@ -85,6 +86,9 @@ const Portfolio = () => {
                   )}
                   {project.image === "cansat" && (
                     <img src={cansatParachute} alt="CanSat Parachute Descent" className="w-full h-full object-cover" />
+                  )}
+                  {project.image === "rov" && (
+                    <img src={rovAnsys} alt="ROV ANSYS Simulation" className="w-full h-full object-cover" />
                   )}
                 </div>
                 <div className="absolute top-4 right-4">

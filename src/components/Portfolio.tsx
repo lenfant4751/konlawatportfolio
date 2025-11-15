@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Calendar } from "lucide-react";
 import cubesatDiagram from "@/assets/cubesat-diagram.png";
+import cansatParachute from "@/assets/cansat-parachute.jpg";
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
@@ -80,6 +81,9 @@ const Portfolio = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   {project.image === "cubesat" && (
                     <img src={cubesatDiagram} alt="CubeSat Diagram" className="w-full h-full object-cover" />
+                  )}
+                  {project.image === "cansat" && (
+                    <img src={cansatParachute} alt="CanSat Parachute Descent" className="w-full h-full object-cover" />
                   )}
                 </div>
                 <div className="absolute top-4 right-4">

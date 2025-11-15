@@ -2,12 +2,6 @@ import { Card } from "@/components/ui/card";
 import schoolLogo from "@/assets/school-logo.png";
 import fusion360Logo from "@/assets/fusion360-logo.png";
 import ansysLogo from "@/assets/ansys-logo.png";
-import easyedaLogo from "@/assets/easyeda-logo.ico";
-import pythonLogo from "@/assets/python-logo.svg";
-import pytorchLogo from "@/assets/pytorch-logo.png";
-import tensorflowLogo from "@/assets/tensorflow-logo.png";
-import opencvLogo from "@/assets/opencv-logo.png";
-import arduinoLogo from "@/assets/arduino-logo.png";
 import vscodeLogo from "@/assets/vscode-logo.png";
 import githubLogo from "@/assets/github-logo.png";
 const Education = () => {
@@ -34,28 +28,22 @@ const Education = () => {
     logo: ansysLogo
   }, {
     name: "EasyEDA",
-    category: "PCB Design",
-    logo: easyedaLogo
+    category: "PCB Design"
   }, {
     name: "Python",
-    category: "Programming",
-    logo: pythonLogo
+    category: "Programming"
   }, {
     name: "PyTorch",
-    category: "ML Framework",
-    logo: pytorchLogo
+    category: "ML Framework"
   }, {
     name: "TensorFlow",
-    category: "ML Framework",
-    logo: tensorflowLogo
+    category: "ML Framework"
   }, {
     name: "OpenCV",
-    category: "Computer Vision",
-    logo: opencvLogo
+    category: "Computer Vision"
   }, {
     name: "Arduino IDE",
-    category: "Embedded",
-    logo: arduinoLogo
+    category: "Embedded"
   }, {
     name: "VS Code",
     category: "IDE",
@@ -101,11 +89,19 @@ const Education = () => {
         <Card className="glass-card p-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors group">
-                <img 
-                  src={tool.logo} 
-                  alt={`${tool.name} logo`}
-                  className="w-16 h-16 object-contain"
-                />
+                {tool.logo ? (
+                  <img 
+                    src={tool.logo} 
+                    alt={`${tool.name} logo`}
+                    className="w-16 h-16 object-contain"
+                  />
+                ) : (
+                  <div className="text-center">
+                    <p className="font-mono font-semibold text-foreground group-hover:text-primary transition-colors">
+                      {tool.name}
+                    </p>
+                  </div>
+                )}
                 <p className="text-xs text-muted-foreground text-center">{tool.category}</p>
               </div>)}
           </div>

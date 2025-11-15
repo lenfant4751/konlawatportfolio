@@ -33,9 +33,6 @@ const Education = () => {
     name: "Python",
     category: "Programming"
   }, {
-    name: "PyTorch",
-    category: "ML Framework"
-  }, {
     name: "TensorFlow",
     category: "ML Framework"
   }, {

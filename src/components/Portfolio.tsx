@@ -13,7 +13,8 @@ const Portfolio = () => {
     year: "2024-2025",
     description: "1U bus architecture for dual-band imaging to build NDVI maps. Complete subsystem trade studies (EPS/ADCS/comms), system diagrams, and preliminary CAD.",
     tech: ["Fusion 360", "Fusion 360", "System Design"],
-    image: "cubesat"
+    image: "cubesat",
+    pdfUrl: "https://drive.google.com/file/d/1B_ebIUeki_HLr6hALIy77QWFvXBktEtv/view?usp=sharing"
   }, {
     id: 2,
     title: "Thailand CanSat Rocket Competition",
@@ -103,10 +104,19 @@ const Portfolio = () => {
                     </span>)}
                 </div>
 
-                <Button variant="outline" className="w-full glass-card border-primary/50 hover:border-primary hover:glow-blue">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View Details
-                </Button>
+                {project.pdfUrl ? (
+                  <Button variant="outline" className="w-full glass-card border-primary/50 hover:border-primary hover:glow-blue" asChild>
+                    <a href={project.pdfUrl} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="mr-2 h-4 w-4" />
+                      View Details
+                    </a>
+                  </Button>
+                ) : (
+                  <Button variant="outline" className="w-full glass-card border-primary/50 hover:border-primary hover:glow-blue" disabled>
+                    <ExternalLink className="mr-2 h-4 w-4" />
+                    View Details
+                  </Button>
+                )}
               </div>
             </Card>)}
         </div>

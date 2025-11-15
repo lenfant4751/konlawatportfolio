@@ -88,22 +88,7 @@ const Education = () => {
 
         <Card className="glass-card p-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors group">
-                {tool.logo ? (
-                  <img 
-                    src={tool.logo} 
-                    alt={`${tool.name} logo`}
-                    className="w-16 h-16 object-contain"
-                  />
-                ) : (
-                  <div className="text-center">
-                    <p className="font-mono font-semibold text-foreground group-hover:text-primary transition-colors">
-                      {tool.name}
-                    </p>
-                  </div>
-                )}
-                <p className="text-xs text-muted-foreground text-center">{tool.category}</p>
-              </div>)}
+            {software.map((tool, index) => {})}
           </div>
         </Card>
       </div>

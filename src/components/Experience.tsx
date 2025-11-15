@@ -17,7 +17,7 @@ const Experience = () => {
       type: "School/Independent",
     },
     {
-      role: "Team Member - Finalist",
+      role: "Team Leader - Finalist",
       project: "Thailand CanSat Rocket Competition",
       period: "2024",
       description: "Designed grid fins to control descent; assisted with payload integration and telemetry systems.",

@@ -10,7 +10,7 @@ const Education = () => {
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",
     degree: "Upper Secondary (M.4–M.6)",
     grade: "GPAX 3.66",
-    period: "2026",
+    period: "Graduation Year of 2026",
     location: "Nakhon Si Thammarat, Thailand"
   }, {
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",

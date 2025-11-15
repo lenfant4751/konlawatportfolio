@@ -75,10 +75,10 @@ const Portfolio = () => {
           animationDelay: `${index * 100}ms`
         }}>
               {/* Project image placeholder */}
-              <div className="h-48 bg-gradient-to-br from-primary/20 to-accent/20 relative overflow-hidden">
+              <div className="h-48 bg-background relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   {project.image === "cubesat" && (
-                    <img src={cubesatDiagram} alt="CubeSat Diagram" className="w-full h-full object-contain p-4" />
+                    <img src={cubesatDiagram} alt="CubeSat Diagram" className="w-full h-full object-cover" />
                   )}
                 </div>
                 <div className="absolute top-4 right-4">

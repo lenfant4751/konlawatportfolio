@@ -1,5 +1,15 @@
 import { Card } from "@/components/ui/card";
 import schoolLogo from "@/assets/school-logo.png";
+import fusion360Logo from "@/assets/fusion360-logo.png";
+import ansysLogo from "@/assets/ansys-logo.png";
+import easyedaLogo from "@/assets/easyeda-logo.ico";
+import pythonLogo from "@/assets/python-logo.svg";
+import pytorchLogo from "@/assets/pytorch-logo.png";
+import tensorflowLogo from "@/assets/tensorflow-logo.png";
+import opencvLogo from "@/assets/opencv-logo.png";
+import arduinoLogo from "@/assets/arduino-logo.png";
+import vscodeLogo from "@/assets/vscode-logo.png";
+import githubLogo from "@/assets/github-logo.png";
 const Education = () => {
   const education = [{
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",
@@ -16,34 +26,44 @@ const Education = () => {
   }];
   const software = [{
     name: "Fusion 360",
-    category: "CAD"
+    category: "CAD",
+    logo: fusion360Logo
   }, {
     name: "ANSYS",
-    category: "Simulation"
+    category: "Simulation",
+    logo: ansysLogo
   }, {
     name: "EasyEDA",
-    category: "PCB Design"
+    category: "PCB Design",
+    logo: easyedaLogo
   }, {
     name: "Python",
-    category: "Programming"
+    category: "Programming",
+    logo: pythonLogo
   }, {
     name: "PyTorch",
-    category: "ML Framework"
+    category: "ML Framework",
+    logo: pytorchLogo
   }, {
     name: "TensorFlow",
-    category: "ML Framework"
+    category: "ML Framework",
+    logo: tensorflowLogo
   }, {
     name: "OpenCV",
-    category: "Computer Vision"
+    category: "Computer Vision",
+    logo: opencvLogo
   }, {
     name: "Arduino IDE",
-    category: "Embedded"
+    category: "Embedded",
+    logo: arduinoLogo
   }, {
     name: "VS Code",
-    category: "IDE"
+    category: "IDE",
+    logo: vscodeLogo
   }, {
     name: "Git/GitHub",
-    category: "Version Control"
+    category: "Version Control",
+    logo: githubLogo
   }];
   return <section id="education" className="py-20 px-4 bg-space-darker/30">
       <div className="container max-w-6xl">
@@ -80,13 +100,13 @@ const Education = () => {
 
         <Card className="glass-card p-8">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-2 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors group">
-                <div className="text-center">
-                  <p className="font-mono font-semibold text-foreground group-hover:text-primary transition-colors">
-                    {tool.name}
-                  </p>
-                  <p className="text-xs text-muted-foreground mt-1">{tool.category}</p>
-                </div>
+            {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-3 p-4 rounded-lg bg-muted/30 hover:bg-muted/50 transition-colors group">
+                <img 
+                  src={tool.logo} 
+                  alt={`${tool.name} logo`}
+                  className="w-16 h-16 object-contain"
+                />
+                <p className="text-xs text-muted-foreground text-center">{tool.category}</p>
               </div>)}
           </div>
         </Card>

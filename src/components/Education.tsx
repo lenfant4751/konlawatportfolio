@@ -99,7 +99,6 @@ const Education = () => {
                 ) : (
                   <div className="text-lg font-medium">{tool.name}</div>
                 )}
-                <span className="text-xs text-muted-foreground">{tool.category}</span>
               </div>
             ))}
           </div>

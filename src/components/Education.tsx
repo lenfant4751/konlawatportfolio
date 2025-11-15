@@ -83,7 +83,7 @@ const Education = () => {
           <span className="text-gradient">Technical Software Experience</span>
         </h2>
 
-        <Card className="glass-card p-8">
+        <Card className="glass-card p-8 bg-white">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {software.map((tool, index) => (
               <div key={index} className="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-primary/5 transition-colors">

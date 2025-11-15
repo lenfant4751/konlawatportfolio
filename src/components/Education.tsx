@@ -1,9 +1,10 @@
 import { Card } from "@/components/ui/card";
 import schoolLogo from "@/assets/school-logo.png";
-import fusion360Logo from "@/assets/fusion360-logo.png";
-import ansysLogo from "@/assets/ansys-logo.png";
-import vscodeLogo from "@/assets/vscode-logo.png";
-import githubLogo from "@/assets/github-logo.png";
+import fusion360Logo from "@/assets/fusion360-logo-new.png";
+import ansysLogo from "@/assets/ansys-logo-new.png";
+import vscodeLogo from "@/assets/vscode-logo-new.png";
+import githubLogo from "@/assets/github-logo-new.png";
+import openrocketLogo from "@/assets/openrocket-logo-new.png";
 const Education = () => {
   const education = [{
     institution: "Princess Chulabhorn Science High School Nakhon Si Thammarat",
@@ -27,20 +28,9 @@ const Education = () => {
     category: "Simulation",
     logo: ansysLogo
   }, {
-    name: "EasyEDA",
-    category: "PCB Design"
-  }, {
-    name: "Python",
-    category: "Programming"
-  }, {
-    name: "TensorFlow",
-    category: "ML Framework"
-  }, {
-    name: "OpenCV",
-    category: "Computer Vision"
-  }, {
-    name: "Arduino IDE",
-    category: "Embedded"
+    name: "OpenRocket",
+    category: "Rocket Design",
+    logo: openrocketLogo
   }, {
     name: "VS Code",
     category: "IDE",
@@ -83,7 +73,23 @@ const Education = () => {
           <span className="text-gradient">Technical Software Experience</span>
         </h2>
 
-        
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 justify-items-center">
+          {software.map((tool, index) => (
+            <Card key={index} className="bg-white p-6 flex flex-col items-center justify-center hover:glow-blue hover-lift border-2">
+              <img 
+                src={tool.logo} 
+                alt={`${tool.name} logo`} 
+                className="w-24 h-24 object-contain mb-3" 
+              />
+              <h4 className="font-display font-semibold text-sm text-center text-foreground">
+                {tool.name}
+              </h4>
+              <p className="text-xs text-muted-foreground text-center">
+                {tool.category}
+              </p>
+            </Card>
+          ))}
+        </div>
       </div>
     </section>;
 };

@@ -14,7 +14,7 @@ const Portfolio = () => {
       category: "aerospace",
       year: "2024-2025",
       description: "1U bus architecture for dual-band imaging to build NDVI maps. Complete subsystem trade studies (EPS/ADCS/comms), system diagrams, and preliminary CAD.",
-      tech: ["Fusion 360", "Python", "System Design"],
+      tech: ["Fusion 360", "Fusion 360", "System Design"],
       image: "cubesat",
     },
     {

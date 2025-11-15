@@ -83,21 +83,11 @@ const Education = () => {
           <span className="text-gradient">Technical Software Experience</span>
         </h2>
 
-        <Card className="glass-card p-8 bg-white">
+        <Card className="glass-card p-8 bg-slate-50">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
-            {software.map((tool, index) => (
-              <div key={index} className="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-primary/5 transition-colors">
-                {tool.logo ? (
-                  <img 
-                    src={tool.logo} 
-                    alt={`${tool.name} logo`}
-                    className="w-16 h-16 object-contain"
-                  />
-                ) : (
-                  <div className="text-lg font-medium">{tool.name}</div>
-                )}
-              </div>
-            ))}
+            {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-2 p-4 hover:bg-primary/5 transition-colors rounded-none">
+                {tool.logo ? <img src={tool.logo} alt={`${tool.name} logo`} className="w-16 h-16 object-contain" /> : <div className="text-lg font-medium">{tool.name}</div>}
+              </div>)}
           </div>
         </Card>
       </div>

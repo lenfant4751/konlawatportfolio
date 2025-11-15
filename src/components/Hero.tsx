@@ -16,8 +16,8 @@ const Hero = () => {
         <div className="text-center space-y-8 animate-fade-in">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl md:text-7xl font-display font-bold tracking-tight">Aerospace & AI
-Engineer Student Portfolio          <span className="text-gradient">Aerospace & AI</span>
+            <h1 className="text-5xl font-display font-bold tracking-tight md:text-6xl">                                                                                                                              Aerospace & AI
+Engineer Student  Portfolio                              <span className="text-gradient">Aerospace & AI</span>
               <br />
               Student Engineer
             </h1>

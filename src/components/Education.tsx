@@ -84,7 +84,7 @@ const Education = () => {
         </h2>
 
         <Card className="glass-card p-8 bg-slate-50">
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {software.map((tool, index) => <div key={index} className="flex flex-col items-center gap-2 p-4 hover:bg-primary/5 transition-colors rounded-none">
                 {tool.logo ? <img src={tool.logo} alt={`${tool.name} logo`} className="w-24 h-24 object-contain" /> : <div className="text-lg font-medium">{tool.name}</div>}
               </div>)}

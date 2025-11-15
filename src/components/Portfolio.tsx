@@ -41,7 +41,7 @@ const Portfolio = () => {
       category: "robotics",
       year: "2024-2025",
       description: "ROV frame and electronics with real-time coral bleaching detection pipeline. Complete field-testing workflow for environmental monitoring.",
-      tech: ["Fusion360", "C/C++", "Python", "ANSYS"],
+      tech: ["Fusion360", "C/C++", "Fusion 360", "ANSYS"],
       image: "rov",
     },
   ];

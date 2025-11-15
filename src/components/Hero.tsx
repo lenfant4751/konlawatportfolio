@@ -33,7 +33,7 @@ Engineer Student  Portfolio                         �
           {/* Quick stats */}
           <div className="flex flex-wrap justify-center gap-3 pt-4">
             <Badge variant="secondary" className="glass-card px-4 py-2 text-sm hover:glow-blue hover-lift">
-              CubeSat Concept (1U)
+              CubeSat Design (1U)
             </Badge>
             <Badge variant="secondary" className="glass-card px-4 py-2 text-sm hover:glow-blue hover-lift">
               CanSat Finalist

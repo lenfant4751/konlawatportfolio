@@ -73,23 +73,25 @@ const Education = () => {
           <span className="text-gradient">Technical Software Experience</span>
         </h2>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-6 justify-items-center">
-          {software.map((tool, index) => (
-            <Card key={index} className="bg-white p-6 flex flex-col items-center justify-center hover:glow-blue hover-lift border-2">
-              <img 
-                src={tool.logo} 
-                alt={`${tool.name} logo`} 
-                className="w-24 h-24 object-contain mb-3" 
-              />
-              <h4 className="font-display font-semibold text-sm text-center text-foreground">
-                {tool.name}
-              </h4>
-              <p className="text-xs text-muted-foreground text-center">
-                {tool.category}
-              </p>
-            </Card>
-          ))}
-        </div>
+        <Card className="bg-white p-8 border-2">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-6 justify-items-center">
+            {software.map((tool, index) => (
+              <div key={index} className="flex flex-col items-center justify-center">
+                <img 
+                  src={tool.logo} 
+                  alt={`${tool.name} logo`} 
+                  className="w-24 h-24 object-contain mb-3" 
+                />
+                <h4 className="font-display font-semibold text-sm text-center text-foreground">
+                  {tool.name}
+                </h4>
+                <p className="text-xs text-muted-foreground text-center">
+                  {tool.category}
+                </p>
+              </div>
+            ))}
+          </div>
+        </Card>
       </div>
     </section>;
 };

@@ -75,21 +75,11 @@ const Education = () => {
 
         <Card className="bg-white p-12 border-2">
           <div className="grid grid-cols-2 md:grid-cols-5 gap-10 justify-items-center">
-            {software.map((tool, index) => (
-              <div key={index} className="flex flex-col items-center justify-center">
-                <img 
-                  src={tool.logo} 
-                  alt={`${tool.name} logo`} 
-                  className="w-32 h-32 object-contain mb-4" 
-                />
-                <h4 className="font-display font-semibold text-base text-center text-foreground">
-                  {tool.name}
-                </h4>
-                <p className="text-sm text-muted-foreground text-center">
-                  {tool.category}
-                </p>
-              </div>
-            ))}
+            {software.map((tool, index) => <div key={index} className="flex flex-col items-center justify-center">
+                <img src={tool.logo} alt={`${tool.name} logo`} className="w-32 h-32 object-contain mb-4" />
+                
+                
+              </div>)}
           </div>
         </Card>
       </div>

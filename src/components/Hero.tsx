@@ -16,8 +16,8 @@ const Hero = () => {
         <div className="text-center space-y-8 animate-fade-in">
           {/* Main heading */}
           <div className="space-y-4">
-            <h1 className="text-5xl font-display font-bold tracking-tight text-neutral-50 md:text-6xl">Aerospace & AI 
-Engineer Student Portfolio      
+            <h1 className="text-5xl font-display font-bold tracking-tight text-neutral-50 md:text-6xl">Aerospace & AI  
+  Engineer Student Portfolio                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
       
       
       

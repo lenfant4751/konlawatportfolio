@@ -49,7 +49,7 @@ const About = () => {
             <div className="flex gap-4">
               <Button className="bg-primary hover:bg-primary/90 glow-blue flex-1">
                 <Download className="mr-2 h-4 w-4" />
-                Download Resume
+                Download Portfolio
               </Button>
               
             </div>

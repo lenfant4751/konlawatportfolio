@@ -5,7 +5,7 @@ const Experience = () => {
     {
       role: "Developer",
       project: "Diabetic Retinopathy CNN App",
-      period: "2025",
+      period: "2024-2025",
       description: "Built screening prototype (preprocessing, training/evaluation, edge inference); designed clinician-friendly UI.",
       type: "School/Independent",
     },

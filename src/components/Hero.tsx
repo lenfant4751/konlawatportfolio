@@ -56,7 +56,7 @@ Engineer Student  Portfolio                         �
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue">
               <Download className="mr-2 h-4 w-4" />
-              Download Resume
+              Download Portfolio
             </Button>
           </div>
 

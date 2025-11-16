@@ -34,7 +34,8 @@ const Portfolio = () => {
     year: "2024-2025",
     description: "Screening prototype with preprocessing, model training/evaluation, and on-device inference. Primary-care-friendly UI for clinical use.",
     tech: ["EasyEDA", "Python", "OpenCV", "Flutter"],
-    image: "dr-app"
+    image: "dr-app",
+    pdfUrl: "https://drive.google.com/file/d/1-HbubkQl6TCEw1xClm7HY9kZbcaV-2cW/view?usp=drive_link"
   }, {
     id: 4,
     title: "AI Underwater Drone",

@@ -40,7 +40,7 @@ const Portfolio = () => {
     title: "AI Underwater Drone",
     category: "robotics",
     year: "2024-2025",
-    description: "ROV frame and electronics with real-time coral bleaching detection pipeline. Complete field-testing workflow for environmental monitoring.",
+    description: "ROV frame and electronics with real-time coral bleaching detection pipeline for environmental monitoring.",
     tech: ["Fusion360", "C/C++", "ESP32", "ANSYS"],
     image: "rov",
     pdfUrl: "https://drive.google.com/file/d/13angfhh96OyhqGjTCOYFcE-ws_N5Jle7/view?usp=sharing"

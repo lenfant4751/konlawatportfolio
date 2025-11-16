@@ -51,7 +51,7 @@ Engineer Student  Portfolio                         �
             <Button size="lg" className="bg-primary hover:bg-primary/90 glow-blue" onClick={() => scrollToSection('portfolio')}>
               View Projects
             </Button>
-            <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => scrollToSection('services')}>
+            <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => window.open('https://drive.google.com/file/d/1BfAE7AQarbNgBY78sgK-vrGBbVw6cGT8/view?usp=drive_link', '_blank')}>
               Statement Of Purpose
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue">

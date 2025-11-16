@@ -33,7 +33,7 @@ const Portfolio = () => {
     category: "ai",
     year: "2024-2025",
     description: "Screening prototype with preprocessing, model training/evaluation, and on-device inference. Primary-care-friendly UI for clinical use.",
-    tech: ["Fusion 360", "Python", "OpenCV", "Flutter"],
+    tech: ["EasyEDA", "Python", "OpenCV", "Flutter"],
     image: "dr-app"
   }, {
     id: 4,

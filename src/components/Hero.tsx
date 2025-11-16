@@ -17,7 +17,7 @@ const Hero = () => {
           {/* Main heading */}
           <div className="space-y-4">
             <h1 className="text-5xl font-display font-bold tracking-tight md:text-6xl">Aerospace & AI
-Student Engineer<span className="text-gradient">Aerospace & AI</span>
+Engineer Student Portfolio      <span className="text-gradient">Aerospace & AI</span>
               <br />
               Student Engineer
             </h1>

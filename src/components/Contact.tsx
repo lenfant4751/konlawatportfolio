@@ -37,9 +37,8 @@ const Contact = () => {
           Interested in collaboration or have questions? Let's connect!
         </p>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact info */}
-          <div className="space-y-6">
+        <div className="flex justify-center">
+          <div className="space-y-6 w-full max-w-md">
             <Card className="glass-card p-6 hover:glow-blue hover-lift">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/10">
@@ -83,9 +82,6 @@ const Contact = () => {
               </div>
             </Card>
           </div>
-
-          {/* Contact form */}
-          
         </div>
       </div>
     </section>;

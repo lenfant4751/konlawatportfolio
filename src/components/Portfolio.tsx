@@ -13,7 +13,7 @@ const Portfolio = () => {
     id: 1,
     title: "1U CubeSat Concept",
     category: "aerospace",
-    year: "2024-2025",
+    year: "2025",
     description: "1U bus architecture for dual-band imaging to build NDVI maps. Complete subsystem trade studies, system diagrams, and preliminary CAD.",
     tech: ["Fusion 360", "Fusion 360", "System Design"],
     image: "cubesat",

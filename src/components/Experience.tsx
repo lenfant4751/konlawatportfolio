@@ -5,14 +5,14 @@ const Experience = () => {
     {
       role: "Developer",
       project: "Diabetic Retinopathy CNN App",
-      period: "2024-2025",
+      period: "2025",
       description: "Built screening prototype (preprocessing, training/evaluation, edge inference); designed clinician-friendly UI.",
       type: "School/Independent",
     },
     {
       role: "Aerospace Designer",
       project: "1U CubeSat Concept",
-      period: "2024-2025",
+      period: "2025",
       description: "Drafted 1U bus architecture for dual-band imaging (NDVI mapping); complete subsystem design.",
       type: "School/Independent",
     },
@@ -26,7 +26,7 @@ const Experience = () => {
     {
       role: "Developer & Designer",
       project: "ROV/Underwater AI Drone",
-      period: "2024-2025",
+      period: "2025",
       description: "Frame/electronics design, camera pipeline, real-time CV model for coral-bleaching detection; field workflow.",
       type: "School/Independent",
     },

@@ -25,7 +25,7 @@ const Skills = () => {
       icon: Code2,
       title: "General Development",
       description: "Version control, rapid prototyping, technical documentation",
-      tools: ["Git/GitHub", "VS Code", "Markdown", "Agile"],
+      tools: ["Git/GitHub", "VS Code"],
     },
   ];
 

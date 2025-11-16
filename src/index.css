@@ -65,14 +65,8 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply text-foreground font-sans antialiased;
+    @apply bg-background text-foreground font-sans antialiased;
     font-family: 'Inter', sans-serif;
-    background-color: hsl(var(--background));
-    background-image: url('./assets/site-background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
   }
   
   h1, h2, h3, h4, h5, h6 {

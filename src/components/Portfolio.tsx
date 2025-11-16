@@ -6,6 +6,7 @@ import { ExternalLink, Calendar } from "lucide-react";
 import cubesatDiagram from "@/assets/cubesat-diagram.png";
 import cansatParachute from "@/assets/cansat-parachute.jpg";
 import rovDesign from "@/assets/rov-design.png";
+import drDevice from "@/assets/dr-device.jpg";
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
@@ -87,6 +88,9 @@ const Portfolio = () => {
                   )}
                   {project.image === "cansat" && (
                     <img src={cansatParachute} alt="CanSat Parachute Descent" className="w-full h-full object-cover" />
+                  )}
+                  {project.image === "dr-app" && (
+                    <img src={drDevice} alt="Diabetic Retinopathy Screening Device" className="w-full h-full object-cover" />
                   )}
                   {project.image === "rov" && (
                     <img src={rovDesign} alt="ROV Design" className="w-full h-full object-cover" />

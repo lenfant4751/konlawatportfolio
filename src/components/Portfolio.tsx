@@ -22,7 +22,7 @@ const Portfolio = () => {
     id: 2,
     title: "Thailand CanSat Rocket Competition",
     category: "aerospace",
-    year: "2024",
+    year: "2024 - 2025",
     description: "Finalist team member. Designed grid fins for descent control, payload integration, and telemetry systems.",
     tech: ["Fusion 360", "ESP32", "C/C++"],
     image: "cansat",

@@ -43,8 +43,7 @@ const Starfield = () => {
     // Animation loop
     let animationFrame: number;
     const animate = () => {
-      ctx.fillStyle = 'rgba(11, 15, 20, 0.1)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       stars.forEach((star) => {
         star.twinklePhase += star.twinkleSpeed;

@@ -7,7 +7,7 @@ const Skills = () => {
       icon: Brain,
       title: "AI/ML & Computer Vision",
       description: "CNN pipelines, dataset curation, model evaluation, edge inference",
-      tools: ["Python", "PyTorch/TensorFlow", "OpenCV", "Streamlit"],
+      tools: ["Python", "PyTorch/TensorFlow", "OpenCV"],
     },
     {
       icon: Cpu,

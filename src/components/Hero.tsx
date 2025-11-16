@@ -50,7 +50,7 @@ Student Engineer<span className="text-gradient">Aerospace & AI</span>
             <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => window.open('https://drive.google.com/file/d/1BfAE7AQarbNgBY78sgK-vrGBbVw6cGT8/view?usp=drive_link', '_blank')}>
               Statement Of Purpose
             </Button>
-            <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue">
+            <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue" onClick={() => window.open('https://drive.google.com/file/d/1aShWREUHmaXhfW97J6j0mc2vaCeS9tn0/view?usp=drive_link', '_blank')}>
               <Download className="mr-2 h-4 w-4" />
               Download Portfolio
             </Button>

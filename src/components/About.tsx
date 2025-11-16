@@ -47,7 +47,7 @@ const About = () => {
             </Card>
 
             <div className="flex gap-4">
-              <Button className="bg-primary hover:bg-primary/90 glow-blue flex-1">
+              <Button className="bg-primary hover:bg-primary/90 glow-blue flex-1" onClick={() => window.open('https://drive.google.com/file/d/1aShWREUHmaXhfW97J6j0mc2vaCeS9tn0/view?usp=drive_link', '_blank')}>
                 <Download className="mr-2 h-4 w-4" />
                 Download Portfolio
               </Button>

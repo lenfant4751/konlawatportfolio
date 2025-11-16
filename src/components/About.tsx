@@ -14,12 +14,7 @@ const About = () => {
           <div className="relative group">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-accent/30 rounded-2xl blur-xl group-hover:blur-2xl transition-all" />
             <div className="relative glass-card p-2 rounded-2xl overflow-hidden">
-              <img
-                src={profilePhoto}
-                alt="Profile photo in formal uniform"
-                loading="lazy"
-                className="w-full h-auto rounded-xl object-cover"
-              />
+              <img src={profilePhoto} alt="Profile photo in formal uniform" loading="lazy" className="w-full h-auto rounded-xl object-cover" />
             </div>
           </div>
 
@@ -56,9 +51,7 @@ const About = () => {
                 <Download className="mr-2 h-4 w-4" />
                 Download Resume
               </Button>
-              <Button variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue flex-1">
-                View Transcript
-              </Button>
+              
             </div>
           </div>
         </div>

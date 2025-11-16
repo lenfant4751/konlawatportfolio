@@ -52,7 +52,7 @@ Engineer Student  Portfolio                         �
               View Projects
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => scrollToSection('services')}>
-              Hire for a Prototype
+              Statement Of Purpose
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue">
               <Download className="mr-2 h-4 w-4" />

@@ -11,15 +11,6 @@ const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
     id: 1,
-    title: "1U CubeSat Concept",
-    category: "aerospace",
-    year: "2025",
-    description: "1U bus architecture for dual-band imaging to build NDVI maps. Complete subsystem trade studies, system diagrams, and preliminary CAD.",
-    tech: ["Fusion 360", "Fusion 360", "System Design"],
-    image: "cubesat",
-    pdfUrl: "https://drive.google.com/file/d/1B_ebIUeki_HLr6hALIy77QWFvXBktEtv/view?usp=sharing"
-  }, {
-    id: 2,
     title: "Thailand CanSat Rocket Competition",
     category: "aerospace",
     year: "2024 - 2025",
@@ -27,6 +18,15 @@ const Portfolio = () => {
     tech: ["Fusion 360", "ESP32", "C/C++"],
     image: "cansat",
     pdfUrl: "https://drive.google.com/file/d/1oeWWNd65DvNXbbRyap1sG3D4sFhXwqKw/view?usp=drive_link"
+  }, {
+    id: 2,
+    title: "1U CubeSat Concept",
+    category: "aerospace",
+    year: "2025",
+    description: "1U bus architecture for dual-band imaging to build NDVI maps. Complete subsystem trade studies, system diagrams, and preliminary CAD.",
+    tech: ["Fusion 360", "Fusion 360", "System Design"],
+    image: "cubesat",
+    pdfUrl: "https://drive.google.com/file/d/1B_ebIUeki_HLr6hALIy77QWFvXBktEtv/view?usp=sharing"
   }, {
     id: 3,
     title: "Diabetic Retinopathy CNN App",

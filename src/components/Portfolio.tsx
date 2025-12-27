@@ -26,7 +26,7 @@ const Portfolio = () => {
     description: "Finalist team member. Designed grid fins for descent control, payload integration, and telemetry systems.",
     tech: ["Fusion 360", "ESP32", "C/C++"],
     image: "cansat",
-    pdfUrl: "/pdfs/thailand-cansat.pdf"
+    pdfUrl: "https://drive.google.com/file/d/1oeWWNd65DvNXbbRyap1sG3D4sFhXwqKw/view?usp=drive_link"
   }, {
     id: 3,
     title: "Diabetic Retinopathy CNN App",

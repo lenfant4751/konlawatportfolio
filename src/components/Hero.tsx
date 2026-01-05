@@ -48,7 +48,7 @@ const Hero = () => {
               View Projects
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" asChild>
-              <a href={`${import.meta.env.BASE_URL}pdfs/SOP_2.pdf`} target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1CH_GQYLOeD8VAHYcivQRMOdaQwOeUwQI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 Statement Of Purpose
               </a>
             </Button>

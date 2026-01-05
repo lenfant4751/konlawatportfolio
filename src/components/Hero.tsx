@@ -53,7 +53,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue" asChild>
-              <a href="https://drive.google.com/file/d/1aShWREUHmaXhfW97J6j0mc2vaCeS9tn0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1etW88fJm8Sxt9Ea-4MeS9rtuiFbZJtNh/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                 <Download className="mr-2 h-4 w-4" />
                 Download Portfolio
               </a>

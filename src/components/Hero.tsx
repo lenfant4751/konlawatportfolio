@@ -47,12 +47,16 @@ const Hero = () => {
             <Button size="lg" className="bg-primary hover:bg-primary/90 glow-blue" onClick={() => scrollToSection('portfolio')}>
               View Projects
             </Button>
-            <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" onClick={() => window.open(`${import.meta.env.BASE_URL}pdfs/SOP_2.pdf`, '_blank')}>
-              Statement Of Purpose
+            <Button size="lg" variant="outline" className="glass-card border-primary/50 hover:border-primary hover:glow-blue" asChild>
+              <a href={`${import.meta.env.BASE_URL}pdfs/SOP_2.pdf`} target="_blank" rel="noopener noreferrer">
+                Statement Of Purpose
+              </a>
             </Button>
-            <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue" onClick={() => window.open('https://drive.google.com/file/d/1aShWREUHmaXhfW97J6j0mc2vaCeS9tn0/view?usp=drive_link', '_blank')}>
-              <Download className="mr-2 h-4 w-4" />
-              Download Portfolio
+            <Button size="lg" variant="outline" className="glass-card border-border hover:border-primary hover:glow-blue" asChild>
+              <a href="https://drive.google.com/file/d/1aShWREUHmaXhfW97J6j0mc2vaCeS9tn0/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                <Download className="mr-2 h-4 w-4" />
+                Download Portfolio
+              </a>
             </Button>
           </div>
 

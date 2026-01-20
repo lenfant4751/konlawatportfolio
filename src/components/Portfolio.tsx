@@ -18,7 +18,7 @@ const Portfolio = () => {
     description: "Canards-controlled active stability system with GPS-guided descent and drone-assisted soft landing. Features LoRa telemetry and multi-sensor payload.",
     tech: ["Fusion 360", "MATLAB", "ESP32", "LoRa"],
     image: "self-landed",
-    pdfUrl: "/pdfs/CDR_Self_Landed_CANSAT.pdf"
+    pdfUrl: "https://drive.google.com/file/d/14d1AWFLz64lWp-xJdXijs6BcmAuDtG0L/view?usp=drive_link"
   }, {
     id: 1,
     title: "Thailand CanSat Rocket Competition",

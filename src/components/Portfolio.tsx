@@ -7,9 +7,19 @@ import cubesatDiagram from "@/assets/cubesat-diagram.png";
 import cansatParachute from "@/assets/cansat-parachute.jpg";
 import rovDesign from "@/assets/rov-design.png";
 import drDevice from "@/assets/dr-device.jpg";
+import selfLandedCansat from "@/assets/self-landed-cansat.png";
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
+    id: 5,
+    title: "Self Landed CANSAT",
+    category: "aerospace",
+    year: "2025",
+    description: "Canards-controlled active stability system with GPS-guided descent and drone-assisted soft landing. Features LoRa telemetry and multi-sensor payload.",
+    tech: ["Fusion 360", "MATLAB", "ESP32", "LoRa"],
+    image: "self-landed",
+    pdfUrl: "/pdfs/CDR_Self_Landed_CANSAT.pdf"
+  }, {
     id: 1,
     title: "Thailand CanSat Rocket Competition",
     category: "aerospace",
@@ -84,6 +94,9 @@ const Portfolio = () => {
               {/* Project image placeholder */}
               <div className="h-48 bg-background relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
+                  {project.image === "self-landed" && (
+                    <img src={selfLandedCansat} alt="Self Landed CANSAT Design" className="w-full h-full object-contain bg-gray-900" />
+                  )}
                   {project.image === "cubesat" && (
                     <img src={cubesatDiagram} alt="CubeSat Diagram" className="w-full h-full object-cover" />
                   )}

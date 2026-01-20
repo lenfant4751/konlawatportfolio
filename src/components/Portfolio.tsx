@@ -11,14 +11,14 @@ import selfLandedCansat from "@/assets/self-landed-cansat.png";
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState("all");
   const projects = [{
-    id: 5,
-    title: "Self Landed CANSAT",
-    category: "aerospace",
-    year: "2025",
-    description: "Canards-controlled active stability system with GPS-guided descent and drone-assisted soft landing. Features LoRa telemetry and multi-sensor payload.",
-    tech: ["Fusion 360", "MATLAB", "ESP32", "LoRa"],
-    image: "self-landed",
-    pdfUrl: "https://drive.google.com/file/d/14d1AWFLz64lWp-xJdXijs6BcmAuDtG0L/view?usp=drive_link"
+    id: 4,
+    title: "AI Underwater Drone",
+    category: "robotics",
+    year: "2024-2025",
+    description: "ROV frame and electronics with real-time coral bleaching detection pipeline for environmental monitoring.",
+    tech: ["Fusion360", "C/C++", "ESP32", "ANSYS"],
+    image: "rov",
+    pdfUrl: "https://drive.google.com/file/d/13angfhh96OyhqGjTCOYFcE-ws_N5Jle7/view?usp=sharing"
   }, {
     id: 1,
     title: "Thailand CanSat Rocket Competition",
@@ -47,14 +47,14 @@ const Portfolio = () => {
     image: "dr-app",
     pdfUrl: "https://drive.google.com/file/d/1-HbubkQl6TCEw1xClm7HY9kZbcaV-2cW/view?usp=drive_link"
   }, {
-    id: 4,
-    title: "AI Underwater Drone",
-    category: "robotics",
-    year: "2024-2025",
-    description: "ROV frame and electronics with real-time coral bleaching detection pipeline for environmental monitoring.",
-    tech: ["Fusion360", "C/C++", "ESP32", "ANSYS"],
-    image: "rov",
-    pdfUrl: "https://drive.google.com/file/d/13angfhh96OyhqGjTCOYFcE-ws_N5Jle7/view?usp=sharing"
+    id: 5,
+    title: "Self Landed CANSAT",
+    category: "aerospace",
+    year: "2025",
+    description: "Canards-controlled active stability system with GPS-guided descent and drone-assisted soft landing. Features LoRa telemetry and multi-sensor payload.",
+    tech: ["Fusion 360", "MATLAB", "ESP32", "LoRa"],
+    image: "self-landed",
+    pdfUrl: "https://drive.google.com/file/d/14d1AWFLz64lWp-xJdXijs6BcmAuDtG0L/view?usp=drive_link"
   }];
   const filters = [{
     id: "all",

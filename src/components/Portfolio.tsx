@@ -95,7 +95,7 @@ const Portfolio = () => {
               <div className="h-48 bg-background relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   {project.image === "self-landed" && (
-                    <img src={selfLandedCansat} alt="Self Landed CANSAT Design" className="w-full h-full object-contain bg-gray-900" />
+                    <img src={selfLandedCansat} alt="Self Landed CANSAT Design" className="w-full h-full object-cover" />
                   )}
                   {project.image === "cubesat" && (
                     <img src={cubesatDiagram} alt="CubeSat Diagram" className="w-full h-full object-cover" />
